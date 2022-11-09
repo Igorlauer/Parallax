@@ -1,0 +1,96 @@
+body, html{
+    height:100%;
+    margin:0;
+    font-size:16px;
+    font-family:"Lato", sans-serif;
+    font-weight:400;
+    line-height:1.8em;
+    color:#666;
+  }
+
+
+
+.bg1, .bg2, .bg3{
+    position:relative;
+    opacity:0.70;
+    background-position:center;
+    background-size:cover;
+    background-repeat: no-repeat ;
+    background-attachment: fixed;
+}
+
+.bg1{
+    background: url(../Assets/img/dia.jpg);
+    min-height: 100%;
+    min-width: 100%;
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+.bg2{
+    background: url(../Assets/img/noite.jpg);
+    min-height: 100%;
+    min-width: 100%;
+    background-size:cover;
+    background-repeat: no-repeat;
+    
+}
+
+.bg3{
+    background: url(../Assets/img/noite-aurea.jpg);
+    min-height: 100%;
+    min-width: 100%;
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+.text{
+    position:absolute;
+    top:50%;
+    width:100%;
+    text-align:center;
+    color:#000;
+    font-size:27px;
+    letter-spacing:8px;
+    text-transform:uppercase;
+  }
+  
+
+.text .border{
+    background-color:#111;
+    color:#fff;
+    padding:20px;
+    width: 20%;
+  }
+
+  .section{
+    text-align: center;
+    padding: 50px 80px;
+  }
+
+  .section-winter{
+    background-color: beige;
+    color: #666;
+  }
+
+  .section-darkgreen{
+        background-color:#282e34;
+        color:#ddd;
+      
+    }
+
+
+
+  .text, .border, .transicao{
+    background-color:transparent;
+  }
+  a{
+    text-decoration: none;
+    color: #000;  }
+
+
+  @media(min-width:50px){
+    .bg1, .bg2, .bg3{
+      background-attachment:fixed;
+    }
+  }
